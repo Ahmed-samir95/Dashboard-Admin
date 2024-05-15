@@ -13,3 +13,12 @@
   --footer-color: #F7F9FC;
   --main-transition: .5s;
 }
+/* ------------------------------------------------------------------------ */
+/* nav */
+nav img{
+  width: 40px;
+}
+
+nav svg{
+  cursor: pointer;
+}
