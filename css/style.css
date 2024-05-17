@@ -5,12 +5,12 @@
 }
 
 :root{
-  --bg-color:#0f054d;
-  --hover-color: #0d6893;
-  --heading-color:  #1b2f45;
+  --bg-color: #F6F9FF;
+  --prag-color: #0D6EFD;
+  --heading-color:  #022441;
   --wh-color: #F7F9FC;
-  --btn-color: #56b8e6;
-  --footer-color: #F7F9FC;
+  --org-color: #FFECDF;
+  --green-color: #E0F8E9;
   --main-transition: .5s;
 }
 /* ------------------------------------------------------------------------ */
