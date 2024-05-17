@@ -5,20 +5,44 @@
 }
 
 :root{
+  --box-sh: 0px 2px 20px rgba(1, 41, 112, 0.1);
   --bg-color: #F6F9FF;
   --prag-color: #0D6EFD;
   --heading-color:  #022441;
-  --wh-color: #F7F9FC;
+  --wh-color: #Fff;
   --org-color: #FFECDF;
   --green-color: #E0F8E9;
   --main-transition: .5s;
 }
+
+body{
+  background-color: var(--bg-color);
+}
 /* ------------------------------------------------------------------------ */
 /* nav */
+nav{
+  box-shadow: var(--box-sh);
+  background-color: var(--wh-color);
+}
 nav img{
   width: 40px;
 }
 
+nav h2, nav h6{
+  color: var(--heading-color);
+}
+
 nav svg{
+  position: relative;
   cursor: pointer;
+  font-size: 20px;
+}
+
+nav .dropdown-menu{
+  position: absolute;
+  right: 3%;
+}
+
+.show{
+  display: block;
 }
