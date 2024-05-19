@@ -49,11 +49,11 @@ nav .dropdown-menu{
   right: 3%;
 }
 
-nav .dropdown-menu h4{
+nav .dropdown-menu h4,nav .dropdown-menu-msg h4{
   color: var(--heading-color);
 }
 
-nav .dropdown-menu p{
+nav .dropdown-menu p, nav .dropdown-menu-msg h4{
   color: var(--msg-color);
 }
 
