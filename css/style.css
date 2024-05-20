@@ -68,6 +68,10 @@ nav .dropdown-menu p, nav .dropdown-menu-msg h4{
   color: var(--msg-color);
 }
 
+nav .profile a{
+  color: var(--msg-color);
+}
+
 .show{
   display: block;
 }
