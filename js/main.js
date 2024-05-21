@@ -10,14 +10,21 @@ console.log(profileDropdown);
 
 navSvg.onclick = show
 function show() {
-  console.log("good");
   notifications.classList.toggle("show")
+  msgdropdown.classList.remove("show")
+  profileDropdown.classList.remove("show")
+
 }
 navSvgSec.onclick = msgdropdownMenu
 function msgdropdownMenu() {
   msgdropdown.classList.toggle("show")
+  notifications.classList.remove("show")
+  profileDropdown.classList.remove("show")
+
 }
 proileImg.onclick = profiledropdownMenu
 function profiledropdownMenu() {
   profileDropdown.classList.toggle("show")
+  msgdropdown.classList.remove("show")
+  notifications.classList.remove("show")
 }
