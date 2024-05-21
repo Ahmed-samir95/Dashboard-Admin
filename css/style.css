@@ -45,6 +45,9 @@ nav svg{
 nav .prs-icon ,nav .prs-icon-2{
   position: relative;
 }
+nav .prs-icon ,nav .prs-icon-2, nav .prs-img{
+  cursor: pointer;
+}
 nav .prs-icon span ,nav .prs-icon-2 span{
   position: absolute;
   top: -18px;
@@ -58,6 +61,10 @@ nav .dropdown-menu{
   position: absolute;
   top: 10%;
   right: 3%;
+}
+
+nav .messages{
+  width: 25%;
 }
 
 nav .dropdown-menu h4,nav .dropdown-menu-msg h4{
