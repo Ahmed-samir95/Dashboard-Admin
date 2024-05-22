@@ -63,10 +63,6 @@ nav .dropdown-menu{
   right: 3%;
 }
 
-nav .messages{
-  width: 25%;
-}
-
 nav .dropdown-menu h4,nav .dropdown-menu-msg h4{
   color: var(--heading-color);
 }
