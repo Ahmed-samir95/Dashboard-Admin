@@ -80,12 +80,30 @@ nav .profile a{
 }
 /* --------------------------------------------------------------------- */
 /* dashboard-content */
+.dashboard-content{
+  background-color: var(--wh-color);
+  height: 100vh;
+  width: 350px;
+}
 
+.dashboard-content .dashboard-menu{
+  margin-left: 40px;
+}
 
+.dashboard-content .dashboard-menu .dashboard-item h3:hover{
+  color: var(--prag-color);
+  cursor: pointer;
+}
 
+.dashboard-content .dashboard-menu .dashboard-item li a{
+  display: block;
+  margin-bottom: 10px;
+  color: var(--msg-color);
+  transition: var(--main-transition);
+}
 
-
-
-
+.dashboard-content .dashboard-menu .dashboard-item li a:hover{
+  color: var(--prag-color);
+}
 
 
