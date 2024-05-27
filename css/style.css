@@ -20,6 +20,10 @@ a{
   text-decoration: none;
 }
 
+li{
+  list-style: none;
+}
+
 body{
   background-color: var(--bg-color);
 }
@@ -86,23 +90,30 @@ nav .profile a{
   width: 350px;
 }
 
-.dashboard-content .dashboard-menu .dashboard-item h3:hover{
+.nav-item .nav-link {
+  font-weight: bold;
+  color: var(--msg-color);
+  font-size: 20px;
+}
+
+.nav-item .nav-link:hover{
   color: var(--prag-color);
   cursor: pointer;
 }
 
-.dashboard-content .dashboard-menu .dashboard-item ul{
+/* .dashboard-content .dashboard-menu .dashboard-item ul{
   display: none;
-}
+} */
 
-.dashboard-content .dashboard-menu .dashboard-item li a{
+.nav-item .nav-content li a{
   display: block;
+  font-weight: bold;
   margin-bottom: 10px;
-  color: var(--msg-color);
+   color: var(--msg-color);
   transition: var(--main-transition);
 }
 
-.dashboard-content .dashboard-menu .dashboard-item li a:hover{
+.nav-item .nav-content li a:hover{
   color: var(--prag-color);
 }
 
