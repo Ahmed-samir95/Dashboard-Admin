@@ -86,13 +86,13 @@ nav .profile a{
   width: 350px;
 }
 
-.dashboard-content .dashboard-menu{
-  margin-left: 40px;
-}
-
 .dashboard-content .dashboard-menu .dashboard-item h3:hover{
   color: var(--prag-color);
   cursor: pointer;
+}
+
+.dashboard-content .dashboard-menu .dashboard-item ul{
+  display: none;
 }
 
 .dashboard-content .dashboard-menu .dashboard-item li a{
@@ -105,5 +105,6 @@ nav .profile a{
 .dashboard-content .dashboard-menu .dashboard-item li a:hover{
   color: var(--prag-color);
 }
+
 
 
