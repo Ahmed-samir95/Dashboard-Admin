@@ -87,7 +87,8 @@ nav .profile a{
 .dashboard-content{
   background-color: var(--wh-color);
   height: 100vh;
-  width: 350px;
+  /* width: 350px; */
+  width: 90%;
 }
 
 .nav-item .nav-link {
