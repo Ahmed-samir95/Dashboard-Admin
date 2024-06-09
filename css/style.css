@@ -85,10 +85,15 @@ nav .profile a{
 /* --------------------------------------------------------------------- */
 /* dashboard-content */
 .dashboard-content{
-  background-color: var(--wh-color);
   height: 100vh;
   /* width: 350px; */
-  width: 90%;
+  /* width: 90%; */
+}
+
+.dashboard-menu{
+  width: 75%;
+  background-color: var(--wh-color);
+
 }
 
 .nav-item .nav-link {
@@ -122,4 +127,7 @@ nav .profile a{
   color: #4d4b4b;
 }
 
+.hide-dashboard-content{
+  display: none;
+}
 

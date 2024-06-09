@@ -29,8 +29,13 @@ function profiledropdownMenu() {
   notifications.classList.remove("show")
 }
 // ----------------------------------------------------------------------------------------------
+// dashboard-content
+let brIcon = document.querySelector(".br-icon")
+let dashboardMenu = document.querySelector(".dashboard-menu")
+console.log(brIcon);
 
-
-
+brIcon.onclick = function () {
+  dashboardMenu.classList.toggle("hide-dashboard-content")
+}
 
 
