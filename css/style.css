@@ -111,6 +111,7 @@ nav .profile a{
 @media(min-width: 992px) {
   .dashboard-menu .nav-item .nav-link svg:first-child, .page{
     margin-left: 35px;
+    margin-top: 20px;
   }
 }
 
