@@ -26,6 +26,7 @@ li{
 
 body{
   background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
 }
 /* ------------------------------------------------------------------------ */
 /* nav */
@@ -128,6 +129,14 @@ nav .profile a{
   font-weight: bold;
   color: var(--msg-color);
   font-size: 20px;
+}
+
+.nav-item .nav-link span, .nav-item #components-nav a{
+  font-weight: normal;
+}
+
+.nav-item #components-nav a{
+  margin-left: 20px;
 }
 
 .nav-item .nav-link:hover{
