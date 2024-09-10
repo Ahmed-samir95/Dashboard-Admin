@@ -69,14 +69,20 @@ nav .dropdown-menu{
   position: absolute;
   top: 85%;
   right: 3%;
+ }
+@media(max-width: 768px) {
+  nav .dropdown-menu{
+    left: 3%;
+  }
 }
+
 @media(min-width: 992px) {
   nav .dropdown-menu-msg{
     position: absolute;
     top: 85%;
     right: 20%;
   }
-}
+}   
 
 nav .dropdown-menu h4,nav .dropdown-menu-msg h4{
   color: var(--heading-color);
